@@ -25,23 +25,22 @@ body{
 .sidebar ul {
     list-style-type: none;
     padding: 0%;
-    position: fixed;
  }
 
  .sidebar li {
-    padding: 10px ;
+    padding: 8px ;
     color: rgb(250, 241, 241);
     display: inline-block;
     margin-left: 10px;
     position: relative;
-    font-size: 18px;
+
    
  }
  .sidebar .active  {
     font-weight: normal;
  }
  .dropdown-menu li{
-color: #0f0f0f;
+color: #131111;
 position: relative;
  }
  .dropdown-menu{
@@ -70,12 +69,7 @@ color: #d68427;
     transition: 5s;
     position: fixed;
  }
- li .dropdown-menu:hover{
-   position: fixed;
- }
- .dropdown .dropdown-menu.li :hover{
-   position: fixed;
- }
+
  .ihome{
     color: aliceblue;
     font-size: 30px;
